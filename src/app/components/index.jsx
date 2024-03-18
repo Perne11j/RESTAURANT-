@@ -1,6 +1,7 @@
 'use client'
+import React from 'react';
 import picture from '/public/images/nate-johnston-7eISju-H38Q-unsplash.jpg'
-import React,{useRef} from 'react';
+import {useRef} from 'react';
 import Image from 'next/image'
 import styles from '../components/styles.module.scss'
 import { useScroll, useTransform, motion} from 'framer-motion';
@@ -8,7 +9,7 @@ import { useScroll, useTransform, motion} from 'framer-motion';
 
 // scroll(progress => console.log(progress))
 
-export default function index() {
+export default function Index() {
     const container = useRef(null);
     const {scrollYProgress} = useScroll({
         target: container,
