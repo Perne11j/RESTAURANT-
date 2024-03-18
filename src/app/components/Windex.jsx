@@ -9,7 +9,7 @@ import { useScroll, useTransform, motion} from 'framer-motion';
 
 // scroll(progress => console.log(progress))
 
-export default function Index() {
+export default function Windex() {
     const container = useRef(null);
     const {scrollYProgress} = useScroll({
         target: container,
