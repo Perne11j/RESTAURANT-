@@ -5,10 +5,7 @@ import Image from 'next/image'
 import styles from '../components/styles.module.scss'
 import { useScroll, useTransform, motion} from 'framer-motion';
 
-scroll(
-    (progress) => console.log(progress),
-    { axis: "x" }  
-  )
+
 // scroll(progress => console.log(progress))
 
 export default function index() {
@@ -17,6 +14,11 @@ export default function index() {
         target: container,
         offset: ['start start', 'end end']
     })
+
+    // scroll(
+    //     (progress) => console.log(progress),
+    //     { axis: "x" }  
+    //   )
 
     // useTransform(value, input, output, options)
     const scale = useTransform(scrollYProgress, [0,1], [1,0])
