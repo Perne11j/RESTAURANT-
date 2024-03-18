@@ -6,7 +6,7 @@ import TBun from "../../public/images/top-bun.png";
 import Chick from "../../public/images/Chicken.png";
 import BBun from "../../public/images/bottom-bun.png";
 import Full from "../../public/images/full-sand.png";
-// import Pic from '../app/components/index'
+import Pic from '../app/components/index'
 import Priv from './components/priv'
 import Pork from './components/pork'
 import Footer from './components/footer'
@@ -91,7 +91,7 @@ return (
      
      <NavBar />
      <Header />
-     {/* <Pic /> */}
+     <Pic />
      <Priv />
      <Pork />
      <Footer />
