@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import React, { useRef } from 'react';
+import React from 'react';
 import TBun from "../../public/images/top-bun.png";
 import Chick from "../../public/images/Chicken.png";
 import BBun from "../../public/images/bottom-bun.png";
@@ -13,7 +13,7 @@ import Footer from './components/footer'
 import Header from './components/home';
 import NavBar from './components/navBar';
 
-import { motion, useScroll, useSpring, MotionValue, useTransform } from "framer-motion"
+// import { motion, useScroll, useSpring, MotionValue, useTransform } from "framer-motion"
 
 
 
